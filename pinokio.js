@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   version: "1.5",
   title: "flashdiffusion",
-  description: "",
+  description: "Accelerating any conditional diffusion model for few steps image generation https://gojasper.github.io/flash-diffusion-project/",
   icon: "icon.webp",
   menu: async (kernel) => {
     let installing = await kernel.running(__dirname, "install.js")
